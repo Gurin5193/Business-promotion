@@ -2,6 +2,7 @@ body {
   font-family: "Poppins", "Inter", "Montserrat", "Roboto", "Asap Condensed",
     sans-serif;
   background-color: #fff;
+  color: #22343d;
 }
 
 /*-- Загальні скидання --*/
@@ -33,10 +34,16 @@ img {
   height: auto;
 }
 
+button {
+  cursor: pointer;
+  padding: 0;
+  border: none;
+}
+
 /*-- Загальні стилі --*/
 
 .all-container {
-  max-width: 1110px;
+  max-width: 1150px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -44,16 +51,14 @@ img {
 /*-- Section What Clients Say --*/
 
 .clients-say {
-  padding: 100px 0;
+  padding-bottom: 100px;
 }
 
 .say-title-headline {
-  font-weight: 700;
   font-size: 32px;
   text-transform: capitalize;
   line-height: 1.78125;
   letter-spacing: 0.01em;
-  color: #22343d;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -64,6 +69,57 @@ img {
   text-align: center;
   line-height: 1.75;
   letter-spacing: 0.01em;
-  color: #22343d;
-  margin-bottom: 40px;
+  max-width: 537px;
+  margin: 0 auto 40px;
+}
+
+.say-text {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #737373;
+}
+.say-title-subject {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+
+.say-text-designer {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71429;
+  letter-spacing: 0.01em;
+  color: #252b42;
+}
+
+.icon-star {
+  fill: #f3cd03;
+}
+
+.stars-wrapper {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 16px;
+}
+
+.say-list {
+  display: flex;
+  gap: 65px;
+}
+
+.say-item {
+  width: calc((100% - 130px) / 3);
+  padding: 27px 25px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+}
+
+.say-wahid-wrapper {
+  display: flex;
+  gap: 14px;
 }
